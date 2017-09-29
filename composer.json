@@ -1,0 +1,25 @@
+{
+  "name": "mortenson/ame",
+  "description": "A sweet Drupal distribution.",
+  "type": "drupal-profile",
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "Samuel Mortenson",
+      "role": "Confectioner"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/core": "^8",
+    "drupal/material_admin": "dev-1.x",
+    "drupal/stencil": "dev-1.x"
+  }
+}

@@ -1,0 +1,32 @@
+name: Ame
+type: profile
+description: A sweet Drupal distribution.
+version: VERSION
+core: 8.x
+dependencies:
+  - automated_cron
+  - block
+  - block_content
+  - ckeditor
+  - datetime
+  - dblog
+  - dynamic_page_cache
+  - field_ui
+  - help
+  - image
+  - menu_link_content
+  - menu_ui
+  - node
+  - options
+  - page_cache
+  - path
+  - search
+  - shortcut
+  - stencil
+  - taxonomy
+  - toolbar
+  - views
+  - views_ui
+themes:
+  - ame_syrup
+  - material_admin

@@ -1,0 +1,21 @@
+name: Syrup
+type: theme
+base theme: classy
+description: A web component powered theme built for Ame.
+package: Core
+version: VERSION
+core: 8.x
+libraries:
+  - ame_syrup/main
+regions:
+  header: Header
+  primary_menu: Primary menu
+  secondary_menu: Secondary menu
+  page_top: Page top
+  page_bottom: Page bottom
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content: Content
+  sidebar_first: Sidebar first
+  sidebar_second: Sidebar second
+  footer: Footer
