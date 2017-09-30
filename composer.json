@@ -15,25 +15,11 @@
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
-    },
-    {
-      "type": "package",
-      "package": {
-        "name": "mortenson/ame-components",
-        "version": "dev-master",
-        "type": "stencil",
-        "source": {
-          "url": "https://github.com/mortenson/ame-components.git",
-          "type": "git",
-          "reference": "master"
-        }
-      }
     }
   ],
   "require": {
     "drupal/core": "^8",
     "drupal/material_admin": "dev-1.x",
-    "drupal/stencil": "dev-1.x",
-    "mortenson/ame-components": "dev-master"
+    "drupal/stencil": "dev-1.x"
   }
 }

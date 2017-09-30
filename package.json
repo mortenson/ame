@@ -1,0 +1,21 @@
+{
+  "name": "drupal-ame",
+  "version": "1.0.0",
+  "description": "A sweet Drupal distribution.",
+  "scripts": {
+    "copy": "mkdir -p stencil && cp -r node_modules/ame-components stencil/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mortenson/ame.git"
+  },
+  "author": "Samuel Mortenson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mortenson/ame/issues"
+  },
+  "homepage": "https://github.com/mortenson/ame#readme",
+  "dependencies": {
+    "ame-components": "github:mortenson/ame-components#master"
+  }
+}
