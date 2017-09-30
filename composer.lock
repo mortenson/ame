@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4c5f3de85e3aa95698adfe9dac4b6ec5",
+    "content-hash": "7798a17dde70687f6cedb2b31e103ab2",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -714,7 +714,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/material_admin",
-                "reference": "9b605af96610b5f86fa1bb540ad7a6f17771d72f"
+                "reference": "4d797804cb572f5ef041c8085d00da78a2fdad2d"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -726,7 +726,7 @@
                 },
                 "drupal": {
                     "version": "8.x-1.x-dev",
-                    "datestamp": "1506097144",
+                    "datestamp": "1506709443",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Project has not opted into security advisory coverage!"
@@ -751,7 +751,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/material_admin"
             },
-            "time": "2017-09-24 16:40:54"
+            "time": "2017-09-29 18:41:38"
         },
         {
             "name": "drupal/stencil",
@@ -759,7 +759,7 @@
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/stencil",
-                "reference": "5b550842367cda08284595ad86d007f25409206a"
+                "reference": "3827d0f82c7d16fda64cd44d5aef3f539d7e56b8"
             },
             "require": {
                 "drupal/core": "~8.0"
@@ -793,7 +793,7 @@
             "support": {
                 "source": "http://cgit.drupalcode.org/stencil"
             },
-            "time": "2017-09-28 13:52:33"
+            "time": "2017-09-29 03:48:46"
         },
         {
             "name": "easyrdf/easyrdf",
@@ -1196,6 +1196,17 @@
                 "xml"
             ],
             "time": "2017-09-04T12:26:28+00:00"
+        },
+        {
+            "name": "mortenson/ame-components",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mortenson/ame-components.git",
+                "reference": "master"
+            },
+            "type": "stencil",
+            "time": "2017-09-30 18:23:09"
         },
         {
             "name": "paragonie/random_compat",
@@ -2874,7 +2885,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "drupal/material_admin": 20,
-        "drupal/stencil": 20
+        "drupal/stencil": 20,
+        "mortenson/ame-components": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
