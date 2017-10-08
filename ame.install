@@ -1,0 +1,33 @@
+<?php
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Ame installation profile.
+ */
+
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_install().
+ *
+ * Perform actions to set up the site for this profile.
+ *
+ * @see system_install()
+ */
+function ame_install() {
+  // Set front page to "node".
+  \Drupal::configFactory()->getEditable('system.site')->set('page.front', '/node')->save(TRUE);
+
+  // Create an example node.
+   Node::create([
+    'type' => 'page',
+    'title' => 'Page title',
+    'body' => [
+      'value' => 'Page <strong>body</strong> text',
+      'format' => 'basic_html',
+    ],
+  ])->save();
+
+  // Enable the admin theme for editing nodes.
+  \Drupal::configFactory()->getEditable('node.settings')->set('use_admin_theme', TRUE)->save(TRUE);
+}

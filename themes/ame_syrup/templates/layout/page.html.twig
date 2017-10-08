@@ -58,7 +58,9 @@
   {{ page.help }}
 
   <main role="main">
-    <ame-text text="Hello, world"></ame-text>
+    <ame-edit></ame-edit>
+    <ame-save></ame-save>
+    <ame-rest-handler handler-name="rest" base-url="/"></ame-rest-handler>
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">

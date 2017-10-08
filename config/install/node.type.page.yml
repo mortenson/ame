@@ -1,0 +1,18 @@
+uuid: a3ee851d-0a6e-48cf-a1a3-dcc28175424e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Page
+type: page
+description: 'A simple page content type.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true
