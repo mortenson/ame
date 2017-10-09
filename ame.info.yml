@@ -4,6 +4,7 @@ description: A sweet Drupal distribution.
 version: VERSION
 core: 8.x
 dependencies:
+  - ame_stencil
   - automated_cron
   - block
   - block_content

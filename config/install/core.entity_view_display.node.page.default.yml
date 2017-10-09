@@ -14,7 +14,7 @@ mode: default
 content:
   body:
     label: hidden
-    type: text_default
+    type: ame_rich_text
     weight: 101
     settings: {  }
     third_party_settings: {  }

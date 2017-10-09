@@ -4,20 +4,3 @@
  * @file
  * Provides preprocess functions for the Ame Syrup theme.
  */
-
-/**
- * Implements hook_preprocess_HOOK() for field templates.
- */
-function ame_syrup_preprocess_field(&$variables) {
-  $element = $variables['element'];
-  /** @var $entity \Drupal\Core\Entity\EntityInterface */
-  $entity = $element['#object'];
-
-  if ($variables['field_name'] === 'title' && $entity->getEntityTypeId() === 'node') {
-    $value = $variables['items'][0]['content']['#context']['value'];
-    $variables['items'][0]['content'] = [
-      '#markup' => '<ame-text ame-handler="rest" ame-resource="node/'.$entity->id().'" ame-path="title.value">' . $value . '</ame-text>',
-      '#allowed_tags' => ['ame-text'],
-    ];
-  }
-}
