@@ -15,11 +15,16 @@
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "vcs",
+      "url":  "git@github.com:mortenson/ame_stencil.git"
     }
   ],
   "require": {
     "drupal/core": "^8",
     "drupal/material_admin": "dev-1.x",
-    "drupal/stencil": "dev-1.x"
+    "drupal/stencil": "dev-1.x",
+    "mortenson/ame_stencil": "dev-8.x-1.x"
   }
 }
